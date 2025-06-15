@@ -1,18 +1,17 @@
 {
   "inbounds": [{
     "port": 80,
-    "protocol": "vmess",
+    "protocol": "vless",
     "settings": {
       "clients": [{
         "id": "0f15fe9c-71a7-41ae-b6f0-9eca1681bef5",
-        "alterId": 0
+        "flow": "",
+        "level": 0,
+        "email": "user@example.com"
       }]
     },
     "streamSettings": {
-      "network": "ws",
-      "wsSettings": {
-        "path": "/rayws"
-      }
+      "network": "tcp"
     }
   }],
   "outbounds": [{
