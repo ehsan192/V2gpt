@@ -1,0 +1,22 @@
+{
+  "inbounds": [{
+    "port": 10086,
+    "protocol": "vmess",
+    "settings": {
+      "clients": [{
+        "id": "0f15fe9c-71a7-41ae-b6f0-9eca1681bef5",
+        "alterId": 0
+      }]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "wsSettings": {
+        "path": "/rayws"
+      }
+    }
+  }],
+  "outbounds": [{
+    "protocol": "freedom",
+    "settings": {}
+  }]
+}
